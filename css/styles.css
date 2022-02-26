@@ -47,12 +47,10 @@ a[href]:hover {
     .AnimedTitle:hover {
         background-position: -120% 0;
     }
-    .socials {
+    .social {
         display: flex;
         justify-content: center;
     }
-    .socials a {
-
     .social {
         display: flex;
         justify-content: center;
