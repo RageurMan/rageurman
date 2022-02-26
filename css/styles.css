@@ -52,6 +52,12 @@ a[href]:hover {
         justify-content: center;
     }
     .socials a {
+
+    .social {
+        display: flex;
+        justify-content: center;
+    }
+    .social a {
         margin-left: 25pc;
     }
     
