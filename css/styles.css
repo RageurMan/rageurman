@@ -1,3 +1,57 @@
-p.bienvenue{
-    color: red;
+@import url('https://kckarnige.is-a.dev/css/fonts/whitney/style.css');
+@import url('https://kckarnige.is-a.dev/femboi_owo/discord-font.css');
+
+html, body {
+background-color: #292c2c;
+color: #ca3030;
+font-family: Whitney Medium;
+margin:auto;
+user-select: none;
 }
+a[href]:hover {
+    color: #ff6c6c;
+    -o-transition:.15s;
+    -ms-transition:.15s;
+    -moz-transition:.15s;
+    -webkit-transition:.15s;
+    transition:.15s; 
+}
+    .main {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1.5;
+    }
+    .daddy {
+        display: flex;
+        justify-content: center;
+        font-size: 5em;
+        font-family: Discordinated;
+    }
+    .AnimedTitle {
+        background-color: #dc3545;
+        background-image: linear-gradient(-75deg,
+                transparent 0,
+                transparent 5%,
+                rgba(255, 255, 255, 0.5) 5%,
+                rgba(255, 255, 255, 0.5) 10%,
+                transparent 10%,
+                transparent 100%);
+        background-size: 200% 100%;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        transition: 1.2s;
+    }
+    .AnimedTitle:hover {
+        background-position: -120% 0;
+    }
+    .contenue {
+        display: flex;
+        justify-content: center;
+    }
+    .contenue a {
+        margin-left: 25pc;
+    }
+    
